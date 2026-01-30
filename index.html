@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Zähle die Spielsachen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Zähle, wie viele Spielsachen im Regal stehen.</h1>
+
+<div class="shelf">
+  🚗 🚗 🥁 ⛵ ⛵ 🪣 🦆
+</div>
+
+<p class="question">
+  Wie viele <strong id="currentToyName">Segelboote</strong> befinden sich im Regal?
+</p>
+
+<div class="answer">
+  <input type="number" id="userAnswer" placeholder="Geben Sie eine Zahl ein">
+  <button onclick="checkAnswer()">Überprüfen</button>
+</div>
+
+<p id="result"></p>
+
+<!-- Bild игрушки слева внизу -->
+<div class="toy-image" id="toyImage">
+  ⛵
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

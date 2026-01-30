@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  background: #f2f7ff;
+}
+
+.shelf {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.toy-image {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 3rem;
+}
